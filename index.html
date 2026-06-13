@@ -177,7 +177,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <button class="btn" onclick="exportList()">↓ Export missing</button>
   <button class="btn" style="background:#9a9a94;color:#fff;border-color:#9a9a94" onclick="exportData()">⇪ Export data</button>
   <button class="btn" style="background:#9a9a94;color:#fff;border-color:#9a9a94" onclick="document.getElementById('importFile').click()">⇩ Import data</button>
-  <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+  <input type="file" id="importFile" accept=".json,application/json,text/plain,*/*" style="display:none" onchange="importData(event)">
 </div>
 
 <div class="legend">
